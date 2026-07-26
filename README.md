@@ -1,6 +1,10 @@
 # GTA V Mod Manager
 
-A lightweight mod manager for **GTA V Enhanced** (Windows, .NET 8 WinForms). Enable or disable mods with checkboxes and launch the game — no file juggling.
+A very simple working mod manager for **GTA V Enhanced** (Windows, .NET 8 WinForms). I mostly built it for my own use to keep my game folder organized, but I thought I'd share it in case anyone else needs something similar. It essentially toggles your mods on/off by moving them to a temporary folder so you can launch a clean game instantly. If you want to use it or contribute to the code, you're more than welcome to.
+
+## Install
+
+Download the installer, run the exe, and select where you want it to install to.
 
 ## How it works
 
@@ -11,7 +15,7 @@ Loose `.rpf` archives in the game root are never touched, so a game update that 
 ## Features
 
 - **Launch Clean / Selected / All** — pick your loadout and go
-- **Profiles** — save named mod sets (e.g. "Graphics only", "Script mods") and load them anytime
+- **Profiles** — save named mod sets (e.g. "Graphics only", "Script mods") and load them anytime; a Default profile is always there
 - **Restore Last** — brings back the selection you had before a clean launch
 - **ScriptHookV version check** — warns when your ScriptHookV.dll looks older than the game executable (the most common cause of crashes after an update)
 - **Game-running guard** — refuses to move files while GTA V is running
